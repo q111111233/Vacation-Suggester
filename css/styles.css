@@ -1,3 +1,22 @@
+body{
+  background: #b3e6ff;
+}
+#head{
+  color: #ff4d4d;
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+}
 #result{
   display: none;
+  color: #003300;
+  font-family: monospace;
+}
+label{
+  font-family: cursive;
+}
+option{
+  font-family: cursive;
+  background-color: #df80ff;
+  color: #003300;
 }

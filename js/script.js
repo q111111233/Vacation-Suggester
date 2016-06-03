@@ -22,6 +22,7 @@ $(document).ready(function(){
     }
 
     $("#result").fadeIn(3000);
+    $("#result").fadeOut(3000);
     event.preventDefault();
   });
 });

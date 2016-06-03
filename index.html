@@ -9,7 +9,7 @@
     <title>Vacation Suggester</title>
   </head>
   <body>
-    <h1>Vacation Suggester</h1>
+    <h1 id="head">Vacation Suggester</h1>
     <div class="container">
       <div id="blanks">
         <form>
@@ -73,10 +73,11 @@
             </select>
           </div>
 
-          <button class="btn btn-success" type="submit">click to see your destination</button>
+          <button class="btn btn-success" type="submit">
+            <span class="glyphicon glyphicon-globe" aria-hidden="true"></span> click to see your destination</button>
         </form>
       </div>
-      <div id="result">
+      <div class="container" id="result">
         <h1><span class="name"></span>, <span class="place"></span></h1>
       </div>
     </div>
