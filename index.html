@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/script.js"></script>
+    <title>Vacation Suggester</title>
+  </head>
+  <body>
+    <h1>Vacation Suggester</h1>
+
+    <div class="container">
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="continent">Which continent do you want go?</label>
+            <select class="form-control" id="continent">
+              <option>Asia</option>
+              <option>Africa</option>
+              <option>North America</option>
+              <option>South America</option>
+              <option>Antarctica</option>
+              <option>Europe</option>
+              <option>Australia</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="like">What do you like?</label>
+            <select class="form-control" id="like">
+              <option>Adventure</option>
+              <option>Beaches & Sun</option>
+              <option>Casinos</option>
+              <option>History & Culture</option>
+              <option>Shopping</option>
+              <option>Family Fun</option>
+              <option>Watching TV</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="with">Who are you traveling with?</label>
+            <select class="form-control" id="who">
+              <option>Myself</option>
+              <option>Friends</option>
+              <option>Family</option>
+              <option>Travel Group</option>
+              <option>Secret People</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="long">How long do you want your vacation to be?</label>
+            <select class="form-control" id="long">
+              <option>Over three weeks</option>
+              <option>Two to three weeks</option>
+              <option>One to two weeks</option>
+              <option>Less than a week</option>
+              <option>A few hours</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="enviroment">what enviroment do you want to experience?</label>
+            <select class="form-control" id="enviroment">
+              <option>Tropical</option>
+              <option>Dry</option>
+              <option>Moderate</option>
+              <option>Polar</option>
+              <option>Outter space</option>
+            </select>
+          </div>
+
+          <button class="btn btn-success" type="submit">click to see your destination</button>
+        </form>
+
+      </div>
+      <div>
+        <h1>Your ideal destination is <strong><span class="place"></span></strong></h1>
+      </div>
+    </div>
+  </body>
+</html>
